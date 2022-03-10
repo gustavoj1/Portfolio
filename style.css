@@ -30,7 +30,7 @@ img {
 }
 
 /* Add space to my h2, align it to the center and add a space around it */
-main > div > section > article > header > h2 {
+main > div > section > article > h2 {
   text-align: center;
   margin: 0;
   padding: 10px;
