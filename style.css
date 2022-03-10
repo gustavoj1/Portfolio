@@ -1,0 +1,56 @@
+body {
+  margin: 25px;
+  background-color: lightblue;
+}
+
+body > header, body > footer {
+  background-color: darkblue;
+  font-family: georgia;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  height: 124px;
+}
+
+.image-shape {
+  border-radius: 50%;
+  width: 400px;
+}
+
+img {
+  border: 3px solid #668284;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > div > article > section > header > h2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+main > div {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+  overflow: hidden;
+}
+
+
+a:link {color: blue; }
+a:visited {color: red; }
+a:hover   { color: green; }
+
+
+body > footer {
+  background-color: darkblue;
+  font-family: georgia;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  height: 50px;
+}
+
+
