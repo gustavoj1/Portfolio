@@ -1,8 +1,11 @@
+/* apply backgorund and margin to my web page */
+
 body {
   margin: 25px;
   background-color: lightblue;
 }
 
+/* Apply differents elements to my header and footer by changing to a darker backgroud, set the font, font size, color and alighment. */
 body > header, body > footer {
   background-color: darkblue;
   font-family: georgia;
@@ -12,11 +15,13 @@ body > header, body > footer {
   height: 124px;
 }
 
+/* Apply a class element to my picture and create circle shapped image with a size of 400 pixels */
 .image-shape {
   border-radius: 50%;
   width: 400px;
 }
 
+/* Add border to my image and align it to the center of the page. */
 img {
   border: 3px solid #668284;
   display: block;
@@ -24,12 +29,14 @@ img {
   margin-right: auto;
 }
 
+/* Add space to my h2, align it to the center and add a space around it */
 main > div > article > section > header > h2 {
   text-align: center;
   margin: 0;
   padding: 10px;
 }
 
+/* set my div border, padding, background and blending*/
 main > div {
   border: 3px solid #668284;
   padding: 10px;
@@ -37,12 +44,12 @@ main > div {
   overflow: hidden;
 }
 
-
+/* styled my links using pseudo-classes */
 a:link {color: blue; }
 a:visited {color: red; }
 a:hover   { color: green; }
 
-
+/* adjust my page footer and change the height to 50 pixels */
 body > footer {
   background-color: darkblue;
   font-family: georgia;
